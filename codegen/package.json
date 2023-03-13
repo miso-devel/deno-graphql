@@ -1,0 +1,16 @@
+{
+  "name": "codegen",
+  "scripts": {
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "3.2.2",
+    "@graphql-codegen/client-preset": "2.1.1",
+    "@graphql-codegen/introspection": "^3.0.1",
+    "@graphql-codegen/typescript": "^3.0.2",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "graphql": "^16.6.0"
+  }
+}
