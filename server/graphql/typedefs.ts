@@ -5,15 +5,17 @@ export const typeDefs = gql`
     hello: String
     test: String
     user: [User]
-    allDinosaur: [Dinosaur]
+    post:[Post]
   }
 
   type User {
     name: String
+    age: String
+    post: Post
   }
 
-  type Dinosaur {
-    name: String
+  type Post {
+    title: String
     description: String
   }
 `;
